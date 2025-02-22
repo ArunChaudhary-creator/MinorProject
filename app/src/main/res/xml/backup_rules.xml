@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Backup rules for the app.
+   See https://developer.android.com/guide/topics/data/autobackup
+-->
+<full-backup-content>
+    <!-- Include shared preferences to back up user settings -->
+    <include domain="sharedpref" path="."/>
+
+    <!-- Exclude specific preferences that should not be backed up -->
+    <exclude domain="sharedpref" path="device.xml"/>
+
+    <!-- Include internal app files if necessary -->
+    <include domain="file" path="."/>
+</full-backup-content>

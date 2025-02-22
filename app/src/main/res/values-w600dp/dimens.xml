@@ -1,0 +1,15 @@
+<resources>
+    <!-- Adjusted Floating Action Button margin for medium-sized screens -->
+    <dimen name="fab_margin">72dp</dimen>
+
+    <!-- Navigation Drawer specific dimensions for 600dp width -->
+    <dimen name="nav_header_height">120dp</dimen>
+    <dimen name="nav_item_padding">12dp</dimen>
+
+    <!-- General Spacing -->
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="default_padding">14dp</dimen>
+
+    <!-- Drawer Layout spacing -->
+    <dimen name="drawer_elevation">6dp</dimen>
+</resources>

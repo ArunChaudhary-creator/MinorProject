@@ -1,0 +1,15 @@
+<resources>
+    <!-- Updated Floating Action Button margin for large screens (w1240dp) -->
+    <dimen name="fab_margin">200dp</dimen>
+
+    <!-- Navigation Drawer adjustments for large screens -->
+    <dimen name="nav_header_height">140dp</dimen>
+    <dimen name="nav_item_padding">16dp</dimen>
+
+    <!-- General Spacing (Increased for larger screens) -->
+    <dimen name="default_margin">24dp</dimen>
+    <dimen name="default_padding">20dp</dimen>
+
+    <!-- Drawer Layout spacing for large screens -->
+    <dimen name="drawer_elevation">10dp</dimen>
+</resources>

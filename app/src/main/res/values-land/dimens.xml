@@ -1,0 +1,15 @@
+<resources>
+    <!-- Increased margin for Floating Action Button in landscape mode -->
+    <dimen name="fab_margin">24dp</dimen>
+
+    <!-- Navigation Drawer adjustments for landscape mode -->
+    <dimen name="nav_header_height">120dp</dimen>
+    <dimen name="nav_item_padding">12dp</dimen>
+
+    <!-- General Spacing (Increased slightly for landscape screens) -->
+    <dimen name="default_margin">20dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+
+    <!-- Drawer Layout spacing -->
+    <dimen name="drawer_elevation">8dp</dimen>
+</resources>
