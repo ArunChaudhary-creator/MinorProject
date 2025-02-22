@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- App Bar and Popup Overlay Styles -->
+    <style name="Theme.WPS.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.WPS.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- Base Theme -->
+    <style name="Theme.WPS" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <!-- No Action Bar Theme -->
+    <style name="Theme.WPS.NoActionBar" parent="Theme.WPS">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>
